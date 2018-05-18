@@ -1,0 +1,62 @@
+/*
+    Cruz-Cycles styles.css
+
+*/
+
+/* Structural Styles */
+
+.grid-container {
+    display: grid;
+
+    grid-template-columns: repeat( 12, 1fr );
+}
+
+/* Container Styles */
+#container {
+    width: 98vw;
+    margin: auto;
+    padding: 0;
+
+
+}
+
+/* Typography */
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+#landing-logo-name {
+    font-family: 'Fugaz One', cursive;
+    font-size: 5rem;
+}
+
+/* Landing Styles */
+
+#landing {
+    position: relative;
+
+    grid-column: 1 / 13;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    background-color: green;
+    background-image: url("media/marco-oceanview.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#landing-logo {
+    display: ;
+    grid-column: 5 / 9;
+}
+
+
+/* Contact Styles */
+#contact {
+    width: 100%;
+    height: 75vh;
+    margin: auto;
+}
